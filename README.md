@@ -1,6 +1,12 @@
 # Adaptive-Optimal-Transport
 Code for the papers based on arxiv.org/pdf/1807.00393.pdf.
 
+## Main files
+* AOT.ipynb : Jupyter notebook to visualize data, code and debug the main functions. Main file.
+* GH.py : Computation of twisted Gradient and Hessian.
+* local_ot.py : Solves the local sample based optimal transport using an implicit gradient descent method.
+* global_ot.py : Solves the sample based optimal transport problem by solving multiple local problems for the forward step, and use displacement interpolation for the backward step.
+
 ## Some pictures
 ### Gaussian to ring
 ![Gaussian to ring](/pictures/ex2start.png "Initial configuration")![](/pictures/ex2end.png "Final configuration")
