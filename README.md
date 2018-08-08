@@ -25,11 +25,9 @@ Code for the papers based on arxiv.org/pdf/1807.00393.pdf.
 
 | Task | Person |     State    |
 |:----:|:------:|:------------:|
-|   a  |    x   |     Done     |
-|   b  |    y   |   Ongoing    |
-|   c  |    z   |  Not Started |
+|   Continue code structure cleanup  |   Monty   |     Ongoing     |
+|   Derivative computations  |    All   |   Ongoing    |
+
 
 ### Task summary
-* a:
-* b:
-* c:
+* Derivative computation: Refer to section 3.3 in references/multiD.pdf
